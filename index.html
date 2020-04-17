@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kids Math Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="index.js" defer></script>
+<style>
+     #formsubmit{
+    visibility: visible;
+}
+</style>
+</head>
+<body>
+    <div id="container">
+<form action=""  id="mygame">
+<div>
+<label for="Q-1">1. 2 + 2 = </label> 
+<input type="number" name="q1">
+</div>
+<div>
+<label for="Q-2">2. 3 + 0 = </label> 
+<input type="number" name="q2">
+</div>
+<div>
+<label for="Q-3">3. 6 - 1 = </label> 
+<input type="number" name="q3">
+</div>
+<div>
+<label for="Q-4">4. 2 - 2 = </label> 
+<input type="number" name="q4">
+</div>
+<div>
+<label for="Q-5">5. 7 + 1 = </label> 
+<input type="number" name="q5">
+</div>
+<div>
+<label for="Q-6">6. 4 - 3 = </label> 
+<input type="number" name="q6">
+</div>
+<div>
+<label for="Q-7">7. 9 + 2 = </label> 
+<input type="number" name="q7">
+</div>
+<div>
+<label for="Q-8">8. 1 + 1 = </label> 
+<input type="number" name="q8">
+</div>
+<div>
+<label for="Q-9">9. 3 + 2 = </label> 
+<input type="number" name="q9">
+</div>
+<div>
+<label for="Q-10">10. 5 - 1 = </label> 
+<input type="number" name="q10">
+</div>
+<input type="submit" onclick="startGame();" value="Submit"> 
+
+</form>
+
+<div id="formsubmit">
+    <p id="myscores"></p>
+    <p id="comments"></p>
+</div>
+
+    </div>
+</body>
+</html>
